@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="DNI"
+        android:textSize="18sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="8dp"/>
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/tvTipoActivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo Activo"
+            android:textSize="17sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tvSerie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Serie"
+            android:textSize="17sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tvPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Placa"
+            android:textSize="17sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tvEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado"
+            android:textSize="17sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PROYECTO_MOVIL-2017</string>
+    <string name="var_cod_activo">Codigo Barra</string>
+    <string name="var_tipos">Tipo Activo</string>
+    <string name="var_fecha">Fecha Compra</string>
+    <string name="var_serie">Serie</string>
+    <string name="var_placa">Placa</string>
+    <string name="var_estado">Estado Activo</string>
+    <string name="var_codbarra">Codigo Activo</string>
+    <string name="var_cod_marca">Marca</string>
+    <string name="var_cod_resp">Responsable</string>
+    <string name="var_cod_prov">Proveedor</string>
+    <string name="var_buscar">Buscar</string>
+    <string name="var_actualizar">Actualizar</string>
+    <string name="var_camara">Scanner</string>
+    <string name="var_nuevo">Nuevo Activo</string>
+    <string name="var_guardar">Guardar Activo</string>
+
+    <array name="var_tipos">
+        <item>Maquinarias</item>
+        <item>Equipos</item>
+    </array>
+    <array name="var_estado">
+        <item>Activo</item>
+        <item>No Activo</item>
+    </array>
+    <string name="title_activity_login">Login del Usuario</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Login del Usuario</string>
+    <string name="error_invalid_email">Email usuario Invalido</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Password Incorrecto</string>
+    <string name="error_field_required">Campo Requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_menu_nagegacion">MenuNagegacionActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_navegacion">MenuNavegacionActivity</string>
+</resources>
